@@ -82,8 +82,8 @@ function game(){
     playRound(playerSelection, computerSelection);
     console.log('Computer: ' + computerSelection);
     console.log('Player: ' + playerSelection);
-    console.log('Player: ' + playerScore);
     console.log('Computer: ' + computerScore);
+    console.log('Player: ' + playerScore);
   }
   console.log('Final Player: ' + playerScore);
   console.log('Final Computer: ' + computerScore);
