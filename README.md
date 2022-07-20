@@ -1,3 +1,3 @@
 # AssignmentJS
 MainAssignment
-https://gonzalo0225.github.io/AssignmentJS/
+https://gonzalo0225.github.io/AssignmentJS/index.html
