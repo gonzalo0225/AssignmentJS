@@ -73,10 +73,11 @@ const computerSelection = computerPlay()
 console.log(playRound(playerSelection, computerSelection));*/
    
 
+
 // game
 
 function game() {
-  for (i = 0; i <= 5; i++) {
+  for (i = 0; i < 5; i++) {
     var playerSelection = playerPlay();
     var computerSelection = computerPlay();
     playRound(playerSelection, computerSelection);
@@ -89,5 +90,4 @@ function game() {
   console.log('Final Computer: ' + computerScore);
 
 }
-
 game();
