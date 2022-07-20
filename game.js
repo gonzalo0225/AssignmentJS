@@ -78,8 +78,8 @@ console.log(playRound(playerSelection, computerSelection));*/
 
 function game() {
   for (i = 0; i < 5; i++) {
-    var playerSelection = playerPlay();
-    var computerSelection = computerPlay();
+    let playerSelection = playerPlay();
+    let computerSelection = computerPlay();
     playRound(playerSelection, computerSelection);
     console.log('Computer: ' + computerSelection);
     console.log('Player: ' + playerSelection);
