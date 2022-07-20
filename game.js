@@ -75,7 +75,7 @@ console.log(playRound(playerSelection, computerSelection));*/
 
 // game
 
-function game() {
+function game(){
   for (i = 0; i <= 5; i++) {
     var playerSelection = playerPlay();
     var computerSelection = computerPlay();
