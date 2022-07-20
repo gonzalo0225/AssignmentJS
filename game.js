@@ -75,7 +75,7 @@ console.log(playRound(playerSelection, computerSelection));*/
 
 
 //game
-/*
+
 function game() {
   for (i = 0; i < 5; i++) {
     var playerSelection = playerPlay();
@@ -89,18 +89,6 @@ function game() {
   console.log('Final Player: ' + playerScore);
   console.log('Final Computer: ' + computerScore);
 
-}
-*/
-function game () {
-  for(let i = 0;i < 5; i++) {
-      let playerText = playerSelection();
-      if (playerText.toLocaleLowerCase() !== "rock" && playerText.toLowerCase() !== "paper" && playerText.toLowerCase() !== "scissors") {
-          alert("Wrong Input");
-          i--;  // Create Inifinite Loop until right input
-      } else {
-          playRound(playerText, computerSelection());   
-      }
-  }
 }
 
 game();
