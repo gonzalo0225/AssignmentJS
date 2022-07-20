@@ -74,7 +74,7 @@ console.log(playRound(playerSelection, computerSelection));*/
    
 
 
-// game
+//game
 
 function game() {
   for (i = 0; i < 5; i++) {
@@ -90,4 +90,5 @@ function game() {
   console.log('Final Computer: ' + computerScore);
 
 }
+
 game();
